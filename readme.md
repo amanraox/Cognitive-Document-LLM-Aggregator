@@ -1,15 +1,13 @@
-# MultiPDF Chat App
-
-> You can find the tutorial for this project on [YouTube](https://youtu.be/dXxQ0LR-3Hg).
+# Cognitive Document LLM Aggregator
 
 ## Introduction
 ------------
-The MultiPDF Chat App is a Python application that allows you to chat with multiple PDF documents. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
+The Cognitive Document LLM Aggregator is a Python application that allows you to chat with multiple documents. You can ask questions about the DOCs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
 
 ## How It Works
 ------------
 
-![MultiPDF Chat App Diagram](./docs/PDF-LangChain.jpg)
+![Cognitive Document LLM Aggregator Diagram](./docs/PDF-LangChain.jpg)
 
 The application follows these steps to provide responses to your questions:
 
@@ -25,23 +23,18 @@ The application follows these steps to provide responses to your questions:
 
 ## Dependencies and Installation
 ----------------------------
-To install the MultiPDF Chat App, please follow these steps:
+To install the Cognitive Document LLM Aggregator, please follow these steps:
 
 1. Clone the repository to your local machine.
 
-2. Install the required dependencies by running the following command:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Obtain an API key from OpenAI and add it to the `.env` file in the project directory.
-```commandline
-OPENAI_API_KEY=your_secrit_api_key
+2. Install the required dependencies.
+   
+3. Obtain an API key from OpenAI
 ```
 
 ## Usage
 -----
-To use the MultiPDF Chat App, follow these steps:
+To use the Cognitive Document LLM Aggregator, follow these steps:
 
 1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
 
@@ -60,11 +53,11 @@ To use the MultiPDF Chat App, follow these steps:
 
 ## Contributing
 ------------
-This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for a YouTube tutorial that demonstrates how to build this project. Feel free to utilize and enhance the app based on your own requirements.
+This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for students to demonstrate how to build this project. Feel free to utilize and enhance the app based on your own requirements.
 
 ## License
 -------
-The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
+The Cognitive Document LLM Aggregator is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 
 gifs:-
